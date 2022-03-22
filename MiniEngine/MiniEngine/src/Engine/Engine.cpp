@@ -69,6 +69,7 @@ namespace MiniEngine
         mInited = false;
         
         Graphics::GetInstance()->Terminate();  // Terminate Graphics System
+        Input::GetInstance()->Terminate();     // Terminate Input System
         Destroy();                             // Destroy Engine instance
     }
 
